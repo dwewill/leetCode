@@ -1,0 +1,10 @@
+.DS_Store
+DerivedData/
+Pods/
+Podfile.lock
+UserInterfaceState.xcuserstate
+WorkspaceSettings.xcsettings
+xcschememanagement.plist
+*.xcscheme
+*.xcbkptlist
+*.xccheckout
