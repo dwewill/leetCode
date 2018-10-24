@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B4CB3A2180B31000CFD753 /* DWZTableRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4CB392180B31000CFD753 /* DWZTableRootViewController.swift */; };
+		55B4CB422180B80300CFD753 /* DWZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4CB412180B80300CFD753 /* DWZHomeViewController.swift */; };
+		55B4CB442180C76C00CFD753 /* DWZHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4CB432180C76C00CFD753 /* DWZHomeTableViewCell.swift */; };
+		55B4CB462180C7A400CFD753 /* DWZHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4CB452180C7A400CFD753 /* DWZHomeModel.swift */; };
 		55D81D1F21809A0A00E761DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D81D1E21809A0A00E761DC /* AppDelegate.swift */; };
-		55D81D2121809A0A00E761DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D81D2021809A0A00E761DC /* ViewController.swift */; };
 		55D81D2421809A0A00E761DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D81D2221809A0A00E761DC /* Main.storyboard */; };
 		55D81D2621809A0F00E761DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D81D2521809A0F00E761DC /* Assets.xcassets */; };
 		55D81D2921809A0F00E761DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D81D2721809A0F00E761DC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55B4CB392180B31000CFD753 /* DWZTableRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWZTableRootViewController.swift; sourceTree = "<group>"; };
+		55B4CB412180B80300CFD753 /* DWZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWZHomeViewController.swift; sourceTree = "<group>"; };
+		55B4CB432180C76C00CFD753 /* DWZHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWZHomeTableViewCell.swift; sourceTree = "<group>"; };
+		55B4CB452180C7A400CFD753 /* DWZHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWZHomeModel.swift; sourceTree = "<group>"; };
 		55D81D1B21809A0A00E761DC /* leetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D81D1E21809A0A00E761DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55D81D2021809A0A00E761DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55D81D2321809A0A00E761DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D81D2521809A0F00E761DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D81D2821809A0F00E761DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				55D81D1E21809A0A00E761DC /* AppDelegate.swift */,
-				55D81D2021809A0A00E761DC /* ViewController.swift */,
+				55B4CB392180B31000CFD753 /* DWZTableRootViewController.swift */,
+				55B4CB412180B80300CFD753 /* DWZHomeViewController.swift */,
+				55B4CB432180C76C00CFD753 /* DWZHomeTableViewCell.swift */,
+				55B4CB452180C7A400CFD753 /* DWZHomeModel.swift */,
 				55D81D2221809A0A00E761DC /* Main.storyboard */,
 				55D81D2521809A0F00E761DC /* Assets.xcassets */,
 				55D81D2721809A0F00E761DC /* LaunchScreen.storyboard */,
@@ -90,6 +99,7 @@
 		55D81D1321809A0900E761DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DWZ;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "段文拯";
@@ -135,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D81D2121809A0A00E761DC /* ViewController.swift in Sources */,
+				55B4CB422180B80300CFD753 /* DWZHomeViewController.swift in Sources */,
+				55B4CB3A2180B31000CFD753 /* DWZTableRootViewController.swift in Sources */,
+				55B4CB462180C7A400CFD753 /* DWZHomeModel.swift in Sources */,
+				55B4CB442180C76C00CFD753 /* DWZHomeTableViewCell.swift in Sources */,
 				55D81D1F21809A0A00E761DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
