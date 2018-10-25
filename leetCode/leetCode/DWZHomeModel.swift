@@ -10,13 +10,13 @@ import UIKit
 
 class DWZHomeModel: NSObject {
     /// 图标
-    var icon: String?
+    @objc var icon: String?
     
     /// 分类名字
-    var name: String?
+    @objc var name: String?
     
     /// 数量
-    var totalCount: String?
+    @objc var totalCount: String?
     
     /// 类的描述信息
     /// 创建model时,都要求实现该属性
@@ -24,7 +24,18 @@ class DWZHomeModel: NSObject {
         return dictionaryWithValues(forKeys: ["icon", "name", "totalCount"]).description
     }
     
-    override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        
+    init(dict: [String:Any]) {
+        super.init()
+        setValuesForKeys(dict)
     }
+    
+    override func setValue(_ value: Any?, forKey key: String) {
+        super.setValue(value, forKey: key)
+    }
+    
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {
+        print("key:\(key), value: \(value)")
+    }
+    
+    
 }

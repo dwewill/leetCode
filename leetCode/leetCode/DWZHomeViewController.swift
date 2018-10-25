@@ -8,6 +8,9 @@
 
 import UIKit
 
+// 宏的使用
+//
+
 //public kScreenWidth = UIScreen.main.bounds.size.width
 
 // 首页：有列表（易、中、难），容易【70，239】
@@ -24,6 +27,16 @@ class DWZHomeViewController: DWZTableRootViewController {
         title = "Problems"
         tableView.frame = CGRect(x: 0, y: 20, width: UIScreen.main.bounds.size.width, height: 300)
         tableView.backgroundColor = UIColor.cyan
+        
+        let array = [["icon":"123","name":"easy","totalCount":"100"],
+                     ["icon":"123","name":"middle","totalCount":"10"],
+                     ["icon":"123","name":"hard","totalCount":"10"]]
+        var modelArray = [DWZHomeModel]()
+        for dic in array {
+            let model:DWZHomeModel = DWZHomeModel(dict: dic)
+            modelArray.append(model)
+        }
+        
     }
 }
 
